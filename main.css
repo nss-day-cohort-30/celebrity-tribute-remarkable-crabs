@@ -4,3 +4,35 @@ html {
 body {
     background-image: linear-gradient(rgb(0, 0, 65), rgb(255, 240, 157));
 }
+
+nav{
+    background-color: #6699ff;
+    border-radius:
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+    flex-wrap: wrap;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: space-around;
+    font-style: oblique;
+    color: blueviolet;
+
+
+}
+li a:hover{
+  font-size: 1;
+color: blueviolet;
+}
+li a:active{
+    color: antiquewhite
+
+}
+li a:visited{
+    color: darkblue;
+
+}
