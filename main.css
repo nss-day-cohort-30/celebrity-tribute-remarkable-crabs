@@ -59,7 +59,6 @@ h1{
 footer {
     background-color: #6C7A89;
     border-radius: 10px;
-    position: absolute; bottom: 0;
     margin-bottom: 10px;
     min-width: 99%;
 }
