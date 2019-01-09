@@ -38,6 +38,9 @@ nav li a:hover {
 nav li a:visited:hover {
     color: #A3C6C4;
 }
+nav li a:active {
+    color: fuchsia;
+}
 
 h1{
     color:#A3C6C4;
@@ -61,17 +64,23 @@ footer {
     border-radius: 10px;
     bottom: 0%;
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
 }
 footer ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     font-size: 2em;
     color: #A3C6C4;
 }
-/* Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
+footer ul li{
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 .infoContainer img {
     position: relative;
