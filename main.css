@@ -24,6 +24,9 @@ nav ul li{
     color: #A3C6C4;
 }
 
+a {
+    text-decoration: none;
+}
 li a:visited {
     color: #354649;
 }
