@@ -59,11 +59,15 @@ h1{
 footer {
     background-color: #6C7A89;
     border-radius: 10px;
+    position: absolute; bottom: 0;
+    margin-bottom: 10px;
+    min-width: 99%;
 }
 footer ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
     padding: 10px;
     margin: 5px;
     font-size: 2em;
