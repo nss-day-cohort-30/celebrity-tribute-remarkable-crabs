@@ -24,6 +24,9 @@ nav ul li{
     color: #A3C6C4;
 }
 
+a {
+    text-decoration: none;
+}
 li a:visited {
     color: #354649;
 }
@@ -52,5 +55,18 @@ h1{
     text-align: justify;
     font-size: 20px;
     margin-top: 30px;
+}
+footer {
+    background-color: #6C7A89;
+    border-radius: 10px;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2em;
+    color: #A3C6C4;
 }
 /* Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
