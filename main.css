@@ -38,9 +38,6 @@ nav li a:hover {
 nav li a:visited:hover {
     color: #A3C6C4;
 }
-nav li a:active {
-    color: fuchsia;
-}
 
 h1{
     color:#A3C6C4;
@@ -74,10 +71,6 @@ footer ul {
     margin: 5px;
     font-size: 2em;
     color: #A3C6C4;
-}
-footer ul li{
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 .infoContainer img {
