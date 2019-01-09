@@ -14,7 +14,7 @@ nav ul li{
     list-style-type: none;
     padding: 10px;
     margin: 5px;
-    display: inline;
+    display: inline-flex;
     flex-wrap: wrap;
     font-size: 2em;
     font-weight: bold;
@@ -24,15 +24,12 @@ nav ul li{
 
 
 }
-li a:hover{
-  font-size: 1;
-color: blueviolet;
+li a:hover {
+    color: blueviolet;
 }
-li a:active{
-    color: antiquewhite
-
+li a:active {
+    color: antiquewhite;
 }
-li a:visited{
+li a:visited {
     color: darkblue;
-
 }
