@@ -65,9 +65,8 @@ footer {
 }
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
-    display: flex;
     padding: 10px;
     margin: 5px;
     font-size: 2em;
