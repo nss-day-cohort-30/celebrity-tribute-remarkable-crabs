@@ -73,7 +73,18 @@ footer ul {
     font-size: 2em;
     color: #A3C6C4;
 }
-.infoContainer img {
+article img {
     position: relative;
     float: right;
+}
+.medals {
+    background: grey;
+    padding: 10px;
+    border: 1px solid black;
+}
+.medals span {
+    line-height: 25px;
+}
+.awards {
+    line-height: 50px;
 }
