@@ -70,3 +70,8 @@ footer ul {
     color: #A3C6C4;
 }
 /* Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
+
+.infoContainer img {
+    position: relative;
+    float: right;
+}
