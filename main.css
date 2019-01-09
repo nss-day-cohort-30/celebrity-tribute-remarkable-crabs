@@ -1,13 +1,15 @@
 html {
     height: 100%;
 }
+
 body {
-    background-image: linear-gradient(rgb(0, 0, 65), rgb(255, 240, 157));
+    background: #354649;
+    font-family: 'Raleway', sans-serif;
 }
 
-nav{
-    background-color: #6699ff;
-    border-radius:
+nav {
+    background-color: #6C7A89;
+    border-radius: 10px;
 }
 
 nav ul li{
@@ -19,17 +21,36 @@ nav ul li{
     font-size: 2em;
     font-weight: bold;
     justify-content: space-around;
-    font-style: oblique;
-    color: blueviolet;
+    color: #A3C6C4;
+}
 
-
-}
-li a:hover {
-    color: blueviolet;
-}
-li a:active {
-    color: antiquewhite;
-}
 li a:visited {
-    color: darkblue;
+    color: #354649;
 }
+
+nav li a:hover {
+  color: #A3C6C4;
+}
+
+nav li a:visited:hover {
+    color: #A3C6C4;
+}
+
+h1{
+    color:#A3C6C4;
+    text-align:center;
+    margin-top: 30px;
+}
+.infoContainer {
+    background: #A3C6C4;
+    border: 1px dashed white;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+}
+/* Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
