@@ -59,6 +59,8 @@ h1{
 footer {
     background-color: #6C7A89;
     border-radius: 10px;
+    bottom: 0%;
+    position: fixed;
 }
 footer ul {
     list-style-type: none;
