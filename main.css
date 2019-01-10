@@ -1,17 +1,35 @@
-html {
-    height: 100%;
+html, body {
+    width: 99%;
+    height: 99%;
 }
-
 body {
     background: #354649;
     font-family: 'Raleway', sans-serif;
 }
-
+#main {
+    min-height: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+article {
+    flex-grow: 1;
+    background: #A3C6C4;
+    border: 1px dashed white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+}
+nav, article, footer {
+    flex-shrink: 0;
+}
 nav {
     background-color: #6C7A89;
     border-radius: 10px;
 }
-
 nav ul li{
     list-style-type: none;
     padding: 10px;
@@ -23,37 +41,21 @@ nav ul li{
     justify-content: space-around;
     color: #A3C6C4;
 }
-
 a {
     text-decoration: none;
 }
 li a:visited {
     color: #354649;
 }
-
-nav li a:hover {
+li a:hover {
   color: #A3C6C4;
 }
-
-nav li a:visited:hover {
+li a:visited:hover {
     color: #A3C6C4;
 }
-
-h1{
-    color:#A3C6C4;
-    text-align:center;
-    margin-top: 30px;
-}
-.infoContainer {
-    background: #A3C6C4;
-    border: 1px dashed white;
-    padding: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 10px;
-    margin: 30px;
-    text-align: justify;
-    font-size: 20px;
+h1 {
+    color: #A3C6C4;
+    text-align: center;
     margin-top: 30px;
 }
 footer {
@@ -71,10 +73,22 @@ footer ul {
     font-size: 2em;
     color: #A3C6C4;
 }
-
-.infoContainer img {
+article img {
     position: relative;
     float: right;
+}
+.medals {
+    background: grey;
+    padding: 10px;
+    border: 1px solid black;
+}
+.medals span {
+    display: inline-block;
+    line-height: 25px;
+    margin: -3px;
+}
+.awards {
+    line-height: 50px;
 }
 .personalImg {
     float: left;
