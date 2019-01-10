@@ -90,3 +90,7 @@ article img {
 .awards {
     line-height: 50px;
 }
+.personalImg {
+    float: left;
+    margin-left: 20px;
+    }
