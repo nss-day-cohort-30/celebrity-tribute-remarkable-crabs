@@ -83,7 +83,9 @@ article img {
     border: 1px solid black;
 }
 .medals span {
+    display: inline-block;
     line-height: 25px;
+    margin: -3px;
 }
 .awards {
     line-height: 50px;
